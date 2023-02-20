@@ -17,6 +17,7 @@ section .box_big{
     
     
     
+    
 }
 
 .box_top{
@@ -26,10 +27,14 @@ section .box_big{
 }
 
 .box_left{
-    width: 6%;
+    width: 7%;
     height: 580px;
     background-color: orangered;
 }
 
+.container_global{
+    width: 95%;
+    background-color: rgba(15, 15, 15, 0.751);
+}
 
 
