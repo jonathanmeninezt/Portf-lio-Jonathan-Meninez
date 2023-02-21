@@ -22,9 +22,10 @@ section .box_big{
 }
 
 .box_top{
-    width: 41.8%;
+    width: 50%;
     height: 100px;
     background-color: orangered;
+    transition: 0.8s;
 }
 
 .box_left{
@@ -77,6 +78,7 @@ nav.menu_desktop li > a{
     font-family: 'Poppins', sans-serif;
     color: rgb(243, 243, 243);
     padding: 60px 15px 0px 15px;
+    transition: 0.9s;
 }
 
 nav.menu_desktop li > a:hover{
