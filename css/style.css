@@ -71,5 +71,29 @@ nav.menu_desktop li > a{
     color: rgb(243, 243, 243);
 }
 
+.box_text{
+    width: 40%;
+    margin: -210px auto;
+    text-align: center;
+    
+    
+
+}
+
+.box_text span#welcome, span#my_name{
+    font-size: 15pt;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+}
+
+.box_text h1{
+    font-size: 32pt;
+    font-weight: 600;
+    font-family:'Poppins', sans-serif;
+    color: orangered;
+}
+
 
 
