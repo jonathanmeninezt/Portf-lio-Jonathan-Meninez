@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 html,body{
@@ -36,5 +37,39 @@ section .box_big{
     width: 95%;
     background-color: rgba(15, 15, 15, 0.751);
 }
+
+header{
+  width: 100%;
+  
+}
+
+nav.menu_desktop{
+    width: 100%;
+    position: absolute;
+    top:120px;
+   
+}
+
+nav.menu_desktop ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 120px;
+    
+    
+}
+
+nav.menu_desktop ul > li{
+    list-style-type: none;
+}
+
+nav.menu_desktop li > a{
+    text-decoration: none;
+    font-size: 13pt;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(243, 243, 243);
+}
+
 
 
