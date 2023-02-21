@@ -22,7 +22,7 @@ section .box_big{
 }
 
 .box_top{
-    width: 50%;
+    width: 41.8%;
     height: 100px;
     background-color: orangered;
 }
@@ -34,7 +34,9 @@ section .box_big{
 }
 
 .container_global{
-    width: 95%;
+    width: 85%;
+    height: 900px;
+    margin: -580px 0px 0px 105px;
     background-color: rgba(15, 15, 15, 0.751);
 }
 
@@ -47,6 +49,7 @@ nav.menu_desktop{
     width: 100%;
     position: absolute;
     top:120px;
+    
    
 }
 
@@ -54,13 +57,17 @@ nav.menu_desktop ul{
     display: flex;
     justify-content:center;
     align-items: center;
-    gap: 120px;
+    gap: 90px;
+    margin-left: 55px;
+    
+ 
     
     
 }
 
 nav.menu_desktop ul > li{
     list-style-type: none;
+    
 }
 
 nav.menu_desktop li > a{
@@ -69,12 +76,18 @@ nav.menu_desktop li > a{
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     color: rgb(243, 243, 243);
+    padding: 60px 15px 0px 15px;
+}
+
+nav.menu_desktop li > a:hover{
+    background-color: orangered;
+    
 }
 
 .box_text{
-    width: 40%;
-    margin: -210px auto;
-    text-align: center;
+    width: 50%;
+    margin: -500px auto;
+    text-align: left;
     
     
 
@@ -95,5 +108,32 @@ nav.menu_desktop li > a{
     color: orangered;
 }
 
+.box_text input#btn_linkedin, input#btn_github{
+    padding: 10px 30px;
+    font-size: 12pt;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box_text > i#icon_linkedin{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    font-size: 50pt;
+    color: white;
+}
+
+.box_img{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+    
+}
+
+.box_img img{
+    margin: 120px 250px 0px 0px;
+}
 
 

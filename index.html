@@ -14,8 +14,8 @@
 
     <section class="box_big">
         <div class="box_top"></div>
-        <div class="container_global">
-         <div class="box_left"></div>
+        <div class="box_left"></div>
+        <div class="container_global"></div>
          <header>
             <nav class="menu_desktop">
                 <ul>
@@ -31,8 +31,10 @@
             <span id="welcome">Olá Seja Bem Vindo(a)</span>
             <span id="my_name">Eu sou o</span>
             <h1>Jonathan Meninez</h1>
-            <input  type="button" value="Linkedin">
-            <input type="button" value="Github">
+            <input onmouseover="hoverLinkedin()" id="btn_linkedin"  type="button" value="Linkedin">
+            <i style="color:white" class="fa-brands fa-linkedin-in"></i>
+            <input id="btn_github" type="button" value="Github">
+            <i id="icon_git" class="fa-brands fa-github"></i>
          </div><!--box_text-->
          <div class="box_img">
             <img src="/img/jon.png">
@@ -41,7 +43,7 @@
     </section><!--box_big-->
     
 
-    
+    <script src="js/main.js"></script>
     
 </body>
 </html>
