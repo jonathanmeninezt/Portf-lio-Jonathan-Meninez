@@ -153,12 +153,47 @@ span::after{
     margin: 0 0 20px 20px;
 }
 
-.box_text input#btn_linkedin, input#btn_github{
+.box_text button#btn_linkedin, button#btn_github{
     padding: 10px 30px;
     font-size: 12pt;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 4px #999;
+    background-position: center;
+    transition: background 0.8s;
+    border: 1px solid  #47a7f5 ;
+    cursor: pointer;
 }
+
+button#btn_linkedin:hover{
+    background:#47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+    color: white;
+    border: 1px solid  white ;
+}
+
+button#btn_github:hover{
+    background:#47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+    color: white;
+    border: 1px solid  white;
+}
+
+
+button#btn_linkedin:active{
+    background-color:#292d3e;
+    background-size: 100%;
+    transition: 0s;
+}
+button#btn_github:active{
+    background-color:#292d3e;
+    background-size: 100%;
+    transition: 0s;
+}
+
+button > i{
+    margin: 0 5px;
+   
+}
+
 
 .box_text > i#icon_linkedin{
     position: absolute;
