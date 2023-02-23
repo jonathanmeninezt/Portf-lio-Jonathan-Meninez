@@ -4,25 +4,25 @@ var boxTop = document.querySelector('div.box_top');
 
 function hoverAm(){
     
-    boxTop.style.width = "41.8%";
+    boxTop.style.width = "45.89%";
     
 }
 
 function hoverHabil(){
     
-    boxTop.style.width = "56.5%";
+    boxTop.style.width = "60.58%";
     
 }
 
 function hoverPort(){
     
-    boxTop.style.width = "69.05%";
+    boxTop.style.width = "73.1%";
     
 }
 
 function hoverConta(){
     
-    boxTop.style.width = "82.19%";
+    boxTop.style.width = "86.25%";
     
 }
 
