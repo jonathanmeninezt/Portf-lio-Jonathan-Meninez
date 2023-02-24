@@ -90,7 +90,53 @@ nav.menu_desktop li > a:hover{
     
 }
 
+nav.menu_mobile{
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 160px;
+    right: 50px;
+    text-align: center;
+    background-color: orangered;
+    display: none;
+    
+}
 
+nav.menu_mobile > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+
+nav.menu_mobile ul li{
+    margin: 13px 0;
+    list-style-type: none;
+
+    
+}
+
+nav.menu_mobile li > a{
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: 400;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(15, 14, 14);
+    padding: 8px 100px;
+}
+nav.menu_mobile li > a:hover{
+   background-color: orangered;
+   -webkit-box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.75);
+    color: black;
+    
+
+}
 
 .box_text{
     width: 50%;
@@ -371,4 +417,7 @@ button > i{
     }
   }
 
+  @media screen and (max-width:772px){
+
+  }
 
