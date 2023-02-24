@@ -244,5 +244,74 @@ button > i{
     }
   }
 
+  @media screen and (max-width:1400px){
+    nav.menu_desktop ul{
+        margin-right: 55px; 
+        
+    }
+
+    .box_img img{
+        margin-right: 120px;
+        
+    }
+  }
+
+  @media screen and (max-width:1200px){
+    nav.menu_desktop ul{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-right: 50px; 
+        
+    }
+
+    .box_img img{
+        margin-right: 75px;
+        
+    }
+  }
+
+  @media screen and (max-width:1083px){
+    nav.menu_desktop ul{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-right: 50px; 
+        
+    }
+
+    .box_img img{
+        width: 16em;
+        margin-right: 43px;
+        animation-duration: 2s;
+        animation-name: fadein;
+        transition: 0.7s;
+        
+    }
+      
+      @keyframes fadein {
+        from {
+          margin-left: 100%;
+          width: 1em;
+          opacity: 0;
+          color: black;
+          
+        }
+      
+        to {
+            margin-left: 0%;
+          width: 16em;
+          opacity: 1;
+        }
+      }
+
+    .box_text h1{
+        font-size: 28pt;
+       
+       
+        
+    }
+  }
+
 
 
