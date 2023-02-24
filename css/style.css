@@ -266,7 +266,7 @@ button > i{
     }
 
     .box_img img{
-        margin-right: 75px;
+        margin-right: 80px;
         
     }
   }
@@ -282,7 +282,7 @@ button > i{
 
     .box_img img{
         width: 16em;
-        margin-right: 43px;
+        margin-right: 59px;
         animation-duration: 2s;
         animation-name: fadein;
         transition: 0.7s;
@@ -313,5 +313,62 @@ button > i{
     }
   }
 
+  @media screen and (max-width:900px){
+    nav.menu_desktop ul{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin-right: 0px;    
+    }
+    nav.menu_desktop img#logo{
+        width: 12em;
+        margin-left: 30px;
+        
+    }
+    nav.menu_desktop li > a{
+        font-size: 12pt;
+      
+    }
+
+    .box_img img{
+        width: 13em;
+        margin-right: 30px;
+        margin-top: 200px;
+        animation-duration: 2s;
+        animation-name: fadein;
+        transition: 0.7s;
+        
+    }
+      
+      @keyframes fadein {
+        from {
+          margin-left: 100%;
+          width: 1em;
+          opacity: 0;
+          color: black;
+          
+        }
+      
+        to {
+            margin-left: 0%;
+          width: 13em;
+          opacity: 1;
+        }
+      }
+
+      .box_text span{
+        font-size: 11pt;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        color: white;   
+    }
+
+    .box_text h1{
+        font-size: 25pt;
+       
+       
+        
+    }
+  }
 
 
