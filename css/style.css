@@ -159,6 +159,14 @@ nav.menu_mobile li > a:hover{
 
 }
 
+img#logo2{
+  display: none;
+}
+
+i#icon_menu{
+  display: none;
+}
+
 .box_text{
     width: 50%;
     margin: -500px auto;
@@ -507,20 +515,11 @@ button > i{
         background-color: orangered;
         
         
+        
       
     }
 
-    .box_text h1{
-    font-size: 32pt;
-    font-weight: 600;
-    font-family:'Poppins', sans-serif;
-    color: #ff4500;
-    animation-duration: 2s;
-    animation-name: slidein;
-    transition: 0.5s;
-    
-}
-
+  
     .box_text button#btn_linkedin, button#btn_github{
     padding: 10px 20px;
     font-size: 10pt;
