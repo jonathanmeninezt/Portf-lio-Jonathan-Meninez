@@ -182,6 +182,7 @@ i#icon_menu{
     text-align: left;
     
     
+    
 
 }
 
@@ -190,6 +191,7 @@ i#icon_menu{
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     color: white;   
+    
 }
 
 span::after{
@@ -216,6 +218,7 @@ span::after{
     animation-duration: 2s;
     animation-name: slidein;
     transition: 0.5s;
+   
     
 }
   
@@ -295,6 +298,7 @@ button > i{
 
 .box_img{
     width: 100%;
+    margin-top: 300px;
     display: flex;
     justify-content: end;
     align-items: center;
