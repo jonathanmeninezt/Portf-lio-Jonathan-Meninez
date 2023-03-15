@@ -333,6 +333,10 @@ button > i{
     }
   }
 
+  .information h1{
+    text-align: center;
+  }
+
   @media screen and (max-width:1400px){
     nav.menu_desktop ul{
         margin-right: 55px; 
@@ -396,6 +400,7 @@ button > i{
 
     .box_text h1{
         font-size: 28pt;
+        
        
        
         
